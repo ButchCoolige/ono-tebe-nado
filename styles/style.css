@@ -80,7 +80,7 @@ body {
   }
   
   .cover {
-      height: 757px;
+     /* height: 757px; */
       background-image: url(../images/cover.jpg);
       background-size: cover;
   }
@@ -142,7 +142,7 @@ body {
       font-size: 22px;
   line-height: 28px; 
    text-transform: uppercase; 
-  margin: 128px 50px 0px 50px;
+  margin: 128px 50px 50px 50px;
   }
   
   
