@@ -26,21 +26,20 @@ a:hover {
 .header_logo {
   display: flex;
 
-  justify-content: flex-start;
+  
   align-items: flex-start;
-  width: 295px;
+  width: 285px;
 }
 
 .header_logo_image {
-  width: 148px;
+  justify-content:left;
+  width: 138px;
 }
 
 .contacts {
-  text-underline-position: under;
-}
-
-.address {
   max-width: 240px;
+  font-style: normal;
+  text-underline-position: under;
 }
 
 .header_menu-list {
@@ -51,25 +50,28 @@ a:hover {
 }
 
 .header__menu-item {
-  list-style-type: none;
-}
-.header__menu-link {
-  display: list-item;
+  list-style-type: circle;
 }
 
-.header__menu-item_active .header__menu-link {
-  list-style-type: circle;
-  text-decoration: none;
+.header__menu-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__menu-link {
   text-decoration-line: underline;
   text-underline-position: under;
 }
+
+.header__menu-link_active {
+ text-decoration: none; 
+ 
+} 
 
 .contacts {
   line-height: 24.3px;
 }
 
 .cover {
-  /* height: 757px; */
   background-image: url(../images/cover.jpg);
   background-size: cover;
 }
@@ -201,10 +203,10 @@ a:hover {
   min-height: 450px;
   background-size: cover;
 }
-
+/*
 a:link {
   text-decoration: none;
-}
+} */
 
 .card {
   display: flex;
