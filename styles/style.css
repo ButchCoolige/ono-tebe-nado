@@ -37,7 +37,7 @@ body {
   text-underline-position: under;
 }
 
-.header__menu-link_active {
+.header__menu-link_inactive {
   text-decoration: none;
 }
 
